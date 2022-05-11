@@ -52,7 +52,7 @@ if [[ ! -e ~/.ssh/fabmedical ]]; then
 fi
 
 # Create resource group
-az group create -l "${MCW_PRIMARY_LOCATION}" -n "fabmedical-${MCW_SUFFIX}"
+#az group create -l "${MCW_PRIMARY_LOCATION}" -n "fabmedical-${MCW_SUFFIX}"
 
 SSH_PUBLIC_KEY=$(cat ~/.ssh/fabmedical.pub)
 
